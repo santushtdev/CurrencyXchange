@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyXchange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💱 CurrencyXchange</h1>
+        <h2 class="direction">From</h2>
+        <div class="currency-container">
+        <select id="currency-first">
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+            <option value="JPY">JPY</option>
+            <option value="USD" selected>USD</option>
+        </select>
+        <input type="number" id="worth-first" value="1" min="0">
+    </div>
+    <h2 class="direction">To</h2>
+    <div class="currency-container">
+        <select id="currency-second">
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR" selected> INR</option>
+            <option value="JPY">JPY</option>
+            <option value="USD">USD</option>
+        </select>
+        <input type="number" id="worth-second"  disabled>
+    </div>
+    <div class="currency">
+  
+    <p class="exchange-rate" id="exchange-rate">1 USD = 90.0 INR 
+        
+    </p>
+     <header class="header">
+    <div class="header-content">
+      <h1>💱 Currency Converter</h1>
+      <p>Convert currencies instantly with real-time exchange rates.</p>
+      
+    </div>
+  </header>
+
+
+    
+    
+</div>
+
+<script src="index.js"></script>
+    
+</body>
+
+</html>
